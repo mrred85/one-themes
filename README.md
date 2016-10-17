@@ -40,4 +40,10 @@ Based on IceTimux theme, a nice overview about this theme.
 Download `One Dark.tmTheme` for Sublime.
 Open Sublime and select `Browse Packages` option from menu. Then, go to `User` folder and copy the `.tmTheme` file.
 
+## ACE Editor
+Theme for ACE editor (from ajax.org)
+### How to install
+Copy `theme-one_dark.js` file into ACE folder root.
+Write in script `editor.setTheme("ace/theme/one_dark");` or replace your value with `one_dark`.
+
 Enjoy ;)
