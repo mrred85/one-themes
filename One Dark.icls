@@ -16,7 +16,7 @@
     <option name="MODIFIED_LINES_COLOR" value="ffc66d" />
     <option name="READONLY_BACKGROUND" value="282c34" />
     <option name="RIGHT_MARGIN_COLOR" value="5c6370" />
-    <option name="SELECTED_INDENT_GUIDE" value="80807f" />
+    <option name="SELECTED_INDENT_GUIDE" value="808080" />
     <option name="SELECTION_BACKGROUND" value="3d4350" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="5c6370" />
     <option name="WHITESPACES" value="5c6370" />
@@ -45,16 +45,11 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
+    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
     <option name="BASH.INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="c679dd" />
         <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="BASH.KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="c679dd" />
-        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="BOOKMARKS_ATTRIBUTES">
@@ -65,32 +60,6 @@
         <option name="BACKGROUND" value="743d3d" />
       </value>
     </option>
-    <option name="BUILDOUT.KEY">
-      <value>
-        <option name="FOREGROUND" value="c679dd" />
-      </value>
-    </option>
-    <option name="BUILDOUT.KEY_VALUE_SEPARATOR">
-      <value>
-        <option name="FOREGROUND" value="a6b2c0" />
-      </value>
-    </option>
-    <option name="BUILDOUT.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="BUILDOUT.SECTION_NAME">
-      <value>
-        <option name="FOREGROUND" value="d2945d" />
-      </value>
-    </option>
-    <option name="BUILDOUT.VALUE">
-      <value>
-        <option name="FOREGROUND" value="98c379" />
-      </value>
-    </option>
     <option name="CLASS_REFERENCE">
       <value>
         <option name="FOREGROUND" value="e5c17c" />
@@ -99,11 +68,6 @@
     <option name="COFFEESCRIPT.BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
-      </value>
-    </option>
-    <option name="COFFEESCRIPT.EXPRESSIONS_SUBSTITUTION_MARK">
-      <value>
-        <option name="FOREGROUND" value="be4f44" />
       </value>
     </option>
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
@@ -533,7 +497,7 @@
     </option>
     <option name="DEFAULT_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="DELETED_TEXT_ATTRIBUTES">
@@ -581,7 +545,7 @@
     </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
-        <option name="BACKGROUND" value="3d4350" />
+        <option name="BACKGROUND" value="4f4f82" />
       </value>
     </option>
     <option name="ENUM_CONST">
@@ -846,7 +810,7 @@
     </option>
     <option name="JAVA_VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="JS.ATTRIBUTE">
@@ -888,7 +852,7 @@
     </option>
     <option name="JS.REGEXP">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="JS.STATIC_MEMBER_FUNCTION">
@@ -904,7 +868,7 @@
     </option>
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="LABEL">
@@ -971,6 +935,7 @@
         <option name="BACKGROUND" value="3d4350" />
       </value>
     </option>
+    <option name="MAKO.TAG" baseAttributes="DEFAULT_TAG" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a6da0" />
@@ -1078,10 +1043,9 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
-    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_ESCAPE_SEQUENCE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="PHP_EXEC_COMMAND_ID">
@@ -1171,49 +1135,11 @@
         <option name="FOREGROUND" value="e5c17c" />
       </value>
     </option>
-    <option name="PUPPET_ESCAPE_SEQUENCE">
-      <value>
-        <option name="FOREGROUND" value="57b6c2" />
-      </value>
-    </option>
-    <option name="PUPPET_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="c679dd" />
-      </value>
-    </option>
-    <option name="PUPPET_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="d2945d" />
-      </value>
-    </option>
-    <option name="PUPPET_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="a6b2c0" />
-      </value>
-    </option>
+    <option name="PUPPET_HEREDOC_BODY" baseAttributes="TEXT" />
+    <option name="PUPPET_HEREDOC_TAGS" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="PUPPET_REGEX">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
-      </value>
-    </option>
-    <option name="PUPPET_SQ_STRING">
-      <value>
-        <option name="FOREGROUND" value="98c379" />
-      </value>
-    </option>
-    <option name="PUPPET_STRING">
-      <value>
-        <option name="FOREGROUND" value="98c379" />
-      </value>
-    </option>
-    <option name="PUPPET_VARIABLE">
-      <value>
-        <option name="FOREGROUND" value="df6a73" />
-      </value>
-    </option>
-    <option name="PUPPET_VARIABLE_INTERPOLATION">
-      <value>
-        <option name="FOREGROUND" value="98c379" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="PY.BUILTIN_NAME">
@@ -1221,18 +1147,21 @@
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
+    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="61afef" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="PY.FUNC_DEFINITION" baseAttributes="DEFAULT_FUNCTION_DECLARATION" />
     <option name="PY.INVALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="68e868" />
         <option name="BACKGROUND" value="481515" />
       </value>
     </option>
+    <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="df6a73" />
@@ -1283,12 +1212,12 @@
     <option name="REGEXP.PARENTHS" baseAttributes="DEFAULT_PARENTHS" />
     <option name="REGEXP.QUOTE_CHARACTER">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="REGEXP.REDUNDANT_ESCAPE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="REST.FIXED" baseAttributes="DEFAULT_IDENTIFIER" />
@@ -1356,7 +1285,7 @@
     </option>
     <option name="RUBY_ESCAPE_SEQUENCE">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="RUBY_EXPR_IN_STRING">
@@ -1447,7 +1376,7 @@
     </option>
     <option name="RUBY_REGEXP">
       <value>
-        <option name="FOREGROUND" value="57b6c2" />
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="RUBY_SPECIFIC_CALL">
@@ -1655,16 +1584,15 @@
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="282c34" />
-        <option name="BACKGROUND" value="98c379" />
-        <option name="ERROR_STRIPE_COLOR" value="98c379" />
+        <option name="BACKGROUND" value="4f4f82" />
+        <option name="ERROR_STRIPE_COLOR" value="4f4f82" />
       </value>
     </option>
     <option name="TODO_DEFAULT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="c7c7ff" />
         <option name="FONT_TYPE" value="3" />
-        <option name="ERROR_STRIPE_COLOR" value="ff" />
+        <option name="ERROR_STRIPE_COLOR" value="c7c7ff" />
       </value>
     </option>
     <option name="TS.CLASS">
@@ -1735,7 +1663,6 @@
     </option>
     <option name="WARNING_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="4a3f10" />
         <option name="EFFECT_COLOR" value="ffc66d" />
         <option name="ERROR_STRIPE_COLOR" value="ffc66d" />
         <option name="EFFECT_TYPE" value="1" />
