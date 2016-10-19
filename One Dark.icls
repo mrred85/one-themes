@@ -9,6 +9,18 @@
     <option name="CARET_ROW_COLOR" value="2b313a" />
     <option name="CONSOLE_BACKGROUND_KEY" value="282c34" />
     <option name="DELETED_LINES_COLOR" value="e06c75" />
+    <option name="FILESTATUS_ADDED" value="98c379" />
+    <option name="FILESTATUS_DELETED" value="59626f" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_DELETED_FROM_FILE_SYSTEM" value="59626f" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_IGNORED" value="98c379" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_BOTH_CONFLICTS" value="e06c75" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_CONFLICTS" value="e06c75" />
+    <option name="FILESTATUS_IDEA_FILESTATUS_MERGED_WITH_PROPERTY_CONFLICTS" value="e06c75" />
+    <option name="FILESTATUS_MERGED" value="c679dd" />
+    <option name="FILESTATUS_MODIFIED" value="61afef" />
+    <option name="FILESTATUS_NOT_CHANGED_IMMEDIATE" value="61afef" />
+    <option name="FILESTATUS_NOT_CHANGED_RECURSIVE" value="61afef" />
+    <option name="FILESTATUS_UNKNOWN" value="e06c75" />
     <option name="GUTTER_BACKGROUND" value="282c34" />
     <option name="INDENT_GUIDE" value="424451" />
     <option name="LINE_NUMBERS_COLOR" value="5c6370" />
@@ -23,6 +35,8 @@
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="59626f" />
   </colors>
   <attributes>
+    <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
+    <option name="ANNOTATION_NAME_ATTRIBUTES" baseAttributes="DEFAULT_METADATA" />
     <option name="BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="481515" />
@@ -45,7 +59,6 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
-    <option name="BASH.HERE_DOC" baseAttributes="DEFAULT_STRING" />
     <option name="BASH.INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="c679dd" />
@@ -73,6 +86,11 @@
     <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
     <option name="COFFEESCRIPT.IDENTIFIER">
       <value />
+    </option>
+    <option name="COFFEESCRIPT.JAVASCRIPT_CONTENT">
+      <value>
+        <option name="BACKGROUND" value="273627" />
+      </value>
     </option>
     <option name="COFFEESCRIPT.LOCAL_VARIABLE" baseAttributes="JS.LOCAL_VARIABLE" />
     <option name="COFFEESCRIPT.STRING">
@@ -543,6 +561,11 @@
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
+    <option name="DROOLS_RULE">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+      </value>
+    </option>
     <option name="DUPLICATE_FROM_SERVER">
       <value>
         <option name="BACKGROUND" value="4f4f82" />
@@ -577,6 +600,12 @@
         <option name="FOREGROUND" value="c678dd" />
         <option name="EFFECT_COLOR" value="c678dd" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="FTL_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="First symbol in list">
@@ -717,19 +746,7 @@
         <option name="ERROR_STRIPE_COLOR" value="ccccff" />
       </value>
     </option>
-    <option name="IGNORE.BRACKET" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="IGNORE.COMMENT" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="IGNORE.HEADER" baseAttributes="DEFAULT_DOC_COMMENT_TAG" />
-    <option name="IGNORE.NEGATION" baseAttributes="DEFAULT_KEYWORD" />
-    <option name="IGNORE.SECTION" baseAttributes="DEFAULT_DOC_COMMENT" />
-    <option name="IGNORE.SLASH" baseAttributes="DEFAULT_COMMA" />
-    <option name="IGNORE.SYNTAX" baseAttributes="DEFAULT_INSTANCE_FIELD" />
-    <option name="IGNORE.VALUE" baseAttributes="DEFAULT_STRING" />
-    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
+    <option name="IMPLICIT_ANONYMOUS_CLASS_PARAMETER_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="808080" />
@@ -742,77 +759,18 @@
         <option name="BACKGROUND" value="273627" />
       </value>
     </option>
-    <option name="INSTANCE_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-      </value>
-    </option>
     <option name="IVAR">
       <value>
         <option name="FOREGROUND" value="df6a73" />
       </value>
     </option>
-    <option name="JAVA_BLOCK_COMMENT">
+    <option name="JAVA_BRACES">
       <value>
-        <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FOREGROUND" value="abb2bf" />
       </value>
     </option>
-    <option name="JAVA_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_MARKUP">
-      <value>
-        <option name="BACKGROUND" value="223f22" />
-      </value>
-    </option>
-    <option name="JAVA_DOC_TAG">
-      <value>
-        <option name="FONT_TYPE" value="1" />
-        <option name="EFFECT_COLOR" value="80807f" />
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="JAVA_INVALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="68e868" />
-        <option name="BACKGROUND" value="481515" />
-      </value>
-    </option>
-    <option name="JAVA_KEYWORD">
-      <value>
-        <option name="FOREGROUND" value="c679dd" />
-      </value>
-    </option>
-    <option name="JAVA_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="59626f" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="JAVA_NUMBER">
-      <value>
-        <option name="FOREGROUND" value="d2945d" />
-      </value>
-    </option>
-    <option name="JAVA_OPERATION_SIGN">
-      <value>
-        <option name="FOREGROUND" value="a6b2c0" />
-      </value>
-    </option>
-    <option name="JAVA_STRING">
-      <value>
-        <option name="FOREGROUND" value="98c379" />
-      </value>
-    </option>
-    <option name="JAVA_VALID_STRING_ESCAPE">
-      <value>
-        <option name="FOREGROUND" value="299999" />
-      </value>
-    </option>
+    <option name="JAVA_KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="JAVA_VALID_STRING_ESCAPE" baseAttributes="DEFAULT_VALID_STRING_ESCAPE" />
     <option name="JS.ATTRIBUTE">
       <value>
         <option name="BACKGROUND" value="423535" />
@@ -869,6 +827,35 @@
     <option name="JS.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="299999" />
+      </value>
+    </option>
+    <option name="KOTLIN_ANNOTATION" baseAttributes="ANNOTATION_NAME_ATTRIBUTES" />
+    <option name="KOTLIN_DYNAMIC_FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="ffc66d" />
+        <option name="FONT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="KOTLIN_LABEL" baseAttributes="DEFAULT_LABEL" />
+    <option name="KOTLIN_NAMED_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+      </value>
+    </option>
+    <option name="KOTLIN_PACKAGE_FUNCTION_CALL" baseAttributes="DEFAULT_STATIC_METHOD" />
+    <option name="KOTLIN_SMART_CAST_RECEIVER">
+      <value>
+        <option name="BACKGROUND" value="273627" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CAST_VALUE">
+      <value>
+        <option name="BACKGROUND" value="273627" />
+      </value>
+    </option>
+    <option name="KOTLIN_SMART_CONSTANT">
+      <value>
+        <option name="BACKGROUND" value="273627" />
       </value>
     </option>
     <option name="LABEL">
@@ -935,7 +922,6 @@
         <option name="BACKGROUND" value="3d4350" />
       </value>
     </option>
-    <option name="MAKO.TAG" baseAttributes="DEFAULT_TAG" />
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3a6da0" />
@@ -1135,8 +1121,6 @@
         <option name="FOREGROUND" value="e5c17c" />
       </value>
     </option>
-    <option name="PUPPET_HEREDOC_BODY" baseAttributes="TEXT" />
-    <option name="PUPPET_HEREDOC_TAGS" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="PUPPET_REGEX">
       <value>
         <option name="FOREGROUND" value="299999" />
@@ -1147,7 +1131,6 @@
         <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
-    <option name="PY.CLASS_DEFINITION" baseAttributes="DEFAULT_CLASS_NAME" />
     <option name="PY.DECORATOR">
       <value>
         <option name="FOREGROUND" value="61afef" />
@@ -1172,11 +1155,7 @@
         <option name="FOREGROUND" value="e06c75" />
       </value>
     </option>
-    <option name="PY.PREDEFINED_DEFINITION">
-      <value>
-        <option name="FOREGROUND" value="e06c75" />
-      </value>
-    </option>
+    <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
     <option name="PY.PREDEFINED_USAGE">
       <value>
         <option name="FOREGROUND" value="e06c75" />
@@ -1193,6 +1172,7 @@
         <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
+
     <option name="REGEXP.BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -1220,7 +1200,6 @@
         <option name="FOREGROUND" value="299999" />
       </value>
     </option>
-    <option name="REST.FIXED" baseAttributes="DEFAULT_IDENTIFIER" />
     <option name="REST.INLINE">
       <value>
         <option name="BACKGROUND" value="273627" />
@@ -1508,6 +1487,12 @@
         <option name="BACKGROUND" value="6e3b3b" />
       </value>
     </option>
+    <option name="SPEL.PROPERTY_KEY">
+      <value>
+        <option name="FOREGROUND" value="e06c75" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="SQL_BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
@@ -1555,12 +1540,7 @@
         <option name="FOREGROUND" value="df6a73" />
       </value>
     </option>
-    <option name="STATIC_FIELD_ATTRIBUTES">
-      <value>
-        <option name="FOREGROUND" value="fda5ff" />
-        <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
+    <option name="STATIC_METHOD_ATTRIBUTES" baseAttributes="DEFAULT_STATIC_METHOD" />
     <option name="STYLUS_VARIABLE">
       <value>
         <option name="FOREGROUND" value="df6a73" />
@@ -1648,6 +1628,11 @@
     <option name="TYPEDEF">
       <value>
         <option name="FOREGROUND" value="c679dd" />
+      </value>
+    </option>
+    <option name="TYPE_PARAMETER_NAME_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="299999" />
       </value>
     </option>
     <option name="TYPO">

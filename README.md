@@ -14,6 +14,10 @@ Theme for IntelliJ applications.
 * JavaScript
 * PHP
 * Python
+* Ruby
+* Java
+* Kotlin
+* Puppet
 * Smarty
 * Django
 * XML
@@ -27,6 +31,7 @@ Theme for IntelliJ applications.
 * Twig
 * Blade
 * CoffeScript
+* Slim
 * SQL
 * YAML
 
