@@ -369,7 +369,7 @@
     </option>
     <option name="DEFAULT_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="c679dd" />
+        <option name="FOREGROUND" value="ffc66d" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -489,7 +489,9 @@
       </value>
     </option>
     <option name="DEFAULT_PREDEFINED_SYMBOL">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="5ab6c1" />
+      </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
@@ -1029,6 +1031,7 @@
         <option name="FOREGROUND" value="ffc66d" />
       </value>
     </option>
+    <option name="PHP_CONSTANT" baseAttributes="DEFAULT_CONSTANT" />
     <option name="PHP_ESCAPE_SEQUENCE">
       <value>
         <option name="FOREGROUND" value="299999" />
@@ -1067,11 +1070,6 @@
     <option name="PHP_PARAMETER">
       <value>
         <option name="FOREGROUND" value="e06c75" />
-      </value>
-    </option>
-    <option name="PHP_PREDEFINED SYMBOL">
-      <value>
-        <option name="FOREGROUND" value="61afef" />
       </value>
     </option>
     <option name="PHP_STATIC_FIELD">
@@ -1173,7 +1171,6 @@
         <option name="FOREGROUND" value="98c379" />
       </value>
     </option>
-
     <option name="REGEXP.BAD_CHARACTER">
       <value>
         <option name="BACKGROUND" value="6e3b3b" />
