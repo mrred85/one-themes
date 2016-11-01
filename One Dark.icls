@@ -1083,13 +1083,11 @@
     <option name="PHP_STATIC_FIELD">
       <value>
         <option name="FOREGROUND" value="e06c75" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_STATIC_METHOD">
       <value>
         <option name="FOREGROUND" value="d19a66" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PHP_STRING">
