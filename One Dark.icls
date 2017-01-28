@@ -328,7 +328,7 @@
     </option>
     <option name="Clojure Numbers">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="Clojure Strings">
@@ -651,12 +651,12 @@
     </option>
     <option name="GQL_ID">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="GQL_INT_LITERAL">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="GQL_KEYWORD">
@@ -996,7 +996,7 @@
     </option>
     <option name="OC.NUMBER">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="OC.PARAMETER">
@@ -1243,13 +1243,13 @@
     </option>
     <option name="RUBY_COMMENT">
       <value>
-        <option name="FOREGROUND" value="5c6370" />
+        <option name="FOREGROUND" value="59626f" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="RUBY_CONSTANT">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="RUBY_CONSTANT_DECLARATION">
@@ -1335,7 +1335,7 @@
     </option>
     <option name="RUBY_NUMBER">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="RUBY_OPERATION_SIGN">
@@ -1479,7 +1479,7 @@
     </option>
     <option name="SLIM_TAG_ATTR_KEY">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="SMARTY_BAD_CHARACTER">
@@ -1511,7 +1511,7 @@
     </option>
     <option name="SQL_NUMBER">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="SQL_PROCEDURE">
@@ -1548,7 +1548,7 @@
     </option>
     <option name="TAG_ATTR_KEY">
       <value>
-        <option name="FOREGROUND" value="d2945d" />
+        <option name="FOREGROUND" value="d19a66" />
       </value>
     </option>
     <option name="TEMPLATE_VARIABLE_ATTRIBUTES">
