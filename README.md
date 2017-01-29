@@ -36,7 +36,7 @@ Theme for IntelliJ applications.
 * YAML
 
 ### How to install
-To install the theme copy `One Dark.icls` in `~Library/Preferences/<PhpStorm/PyCharm/...>/colors`.
+To install the theme copy `One Dark.icls` in `~/Library/Preferences/<PhpStorm/PyCharm/...>/colors`.
 Then select from `Preferences > Editor > Colors & Fonts`.
 
 ## Sublime Text 3
@@ -44,6 +44,12 @@ Based on IceTimux theme, a nice overview about this theme.
 ### How to install
 Download `One Dark.tmTheme` for Sublime.
 Open Sublime and select `Browse Packages` option from menu. Then, go to `User` folder and copy the `.tmTheme` file.
+
+## Xcode
+Theme for Objective-C ans Swift.
+### Hot wo install
+To install the theme download and then copy `One Dark.xccolortheme` file in `~/Library/Developer/Xcode/UserData/FontAndColorThemes` folder.
+Open Xcode and select from `Preferences > Fonts & Colors`.
 
 ## ACE Editor
 Theme for ACE editor (from ajax.org)
