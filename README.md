@@ -46,8 +46,8 @@ Download `One Dark.tmTheme` for Sublime.
 Open Sublime and select `Browse Packages` option from menu. Then, go to `User` folder and copy the `.tmTheme` file.
 
 ## Xcode
-**One Dark** and **One Light** for Objective-C ans Swift.
-### Hot wo install
+**One Dark** and **One Light** for Objective-C and Swift.
+### How to install
 To install the theme download and then copy `One Dark.xccolortheme` (or `One Light.xccolortheme`) file in `~/Library/Developer/Xcode/UserData/FontAndColorThemes` folder.
 Open Xcode and select from `Preferences > Fonts & Colors`.
 
